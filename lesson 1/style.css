@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.box {
+    position: fixed;
+    /*margin: 25px auto;*/
+    display: flex;
+    background-color: aquamarine;
+    height: 80px;
+    width: 80px;
+    border: black 10px solid;
+    right: 50px;
+    transition:all 1s ease 0s;
+
+}
+
+.box:hover {
+    background-color: aqua;
+    transform: rotate(30deg);
+    cursor: pointer;
+    transition:all 2s ease 0s;
+}
+
+.positionbox {
+    border: 2px solid #000;
+    background-color: #ccc;
+    height: 500px;
+    margin: 20px 0;
+    position: relative;
+
+
+}
+
+.text {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}

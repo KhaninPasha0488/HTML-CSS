@@ -1,0 +1,16 @@
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 4px #000000 solid;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    background-color: aquamarine;
+}
